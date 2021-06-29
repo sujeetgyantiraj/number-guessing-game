@@ -1,0 +1,20 @@
+winning_number =27
+print("THIS IS NUMBER GUESSING  GAME")
+print(" WELCOME THE GAME")
+X= int(input("#####HOW MANY CHANCES IN WHICH YOU WON THE GAME="))
+for i in range(X):
+   num = int(input("enter the any number:"))
+   if num==27:
+       print(" YOU R WON THE GAME")
+   elif num>40:
+       print("ENTER TOO HIGH NUMBER ENTER LOWER NUMBER ")
+   elif num<40 and num>27:
+       print("YOU ARE NEAR TO WIN ENTER SOME LOW NUMBER")
+   elif num<18:
+       print("ENTER TOO LOW NUMBER ENTER BIGGER NUMBER ")
+   elif  num<27 and num>18:
+        print(" YOU ARE NEAR TO WIN ENTER SOME HIGH NUMBER")
+       
+if (num != 27):
+    print("YOU LOOSE THE GAME")
+    
